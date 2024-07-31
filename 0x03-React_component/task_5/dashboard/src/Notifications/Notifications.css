@@ -1,0 +1,24 @@
+:root {
+    --primar-color: #E11D3F;
+}
+
+.Notifications {
+    border: 1px dashed var(--primar-color);
+    position: absolute;
+    padding: 0.5rem;
+    width:30rem;
+    right: 2rem;
+}
+
+[data-notification-type="default"] {
+    color: #1D0563;
+}
+
+[data-notification-type="urgent"] {
+    color: #F02201;
+}
+
+.menuItem {
+    text-align: right;
+    padding-right: 2rem;
+}

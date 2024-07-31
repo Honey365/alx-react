@@ -1,0 +1,20 @@
+table {
+    border: 1px solid #cccccc;
+    width: 90%;
+    margin: 30px auto auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px 0;
+}
+
+th {
+    padding: 10px 0;
+    text-align: left;
+    border-bottom: 3px solid #cccccc;
+}
+
+tr:first-child th {
+    text-align: center;
+}
