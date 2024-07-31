@@ -1,0 +1,17 @@
+.App-header {
+    height:180px;
+    border-bottom: 3px solid var(--color-primary);
+    display: flex;
+    padding-left: var(--container-spacing);
+}
+
+.App-header h1 {
+    color: var(--color-primary);
+    margin-left: 50px;
+    font-size: 2.0rem;
+    margin-top: 70px;
+}
+
+.App-header img {
+    height:180px;
+}
